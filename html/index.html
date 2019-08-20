@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <title>Liam x/o game</title>
+
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="functionality.js"></script>
+</head>
+
+<body>
+
+    <h1>Xo game</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-xs-12">
+                <button onclick="restart()" id="target">Restart</button>
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <table id='tableId' style="width:100%; height:50%;">
+                    <tr>
+                        <td id="div1" cell="1" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div2" cell="2" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div3" cell="3" class="div_hover" onclick="canvasClicked(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="div4" cell="4" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div5" cell="5" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div6" cell="6" class="div_hover" onclick="canvasClicked(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="div7" cell="7" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div8" cell="8" class="div_hover" onclick="canvasClicked(this)"></td>
+                        <td id="div9" cell="9" class="div_hover" onclick="canvasClicked(this)"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-2">
+                <p id='demo'>player 1 start off</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="div9" cell="9" class="div_hover" onclick="canvasClicked(this);"></div>
+
+
+
+
+
+
+
+</body>
+
+</html>
